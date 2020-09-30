@@ -1,0 +1,2 @@
+mainwindow.setwindowicon(qicon('logo.png'))小logo
+mainwindow.setylesheet("path路径")背景
