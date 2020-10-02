@@ -1,7 +1,13 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from picture import p2p
 
-class Ui_MainWindow(object):
+class picturetopicture(QtWidgets.QMainWindow):
+    def __init__(self):
+        super(picturetopicture,self).__init__()
+        self.setupUi(self)
+        self.retranslateUi(self)
+
+
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(779, 271)
@@ -58,7 +64,7 @@ if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
+    ui = picturetopicture()
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())

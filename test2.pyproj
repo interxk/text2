@@ -5,7 +5,7 @@
     <ProjectGuid>67d8bfe8-d85a-49eb-9786-cec722ffd380</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>test2.py</StartupFile>
+    <StartupFile>mainboard.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,8 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="mainboard.py" />
+    <Compile Include="test4.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="picture.py" />
-    <Compile Include="video.py" />
+    <Compile Include="png2png2.py" />
+    <Compile Include="sp2sp.py" />
     <Compile Include="test2.py" />
   </ItemGroup>
   <ItemGroup>
